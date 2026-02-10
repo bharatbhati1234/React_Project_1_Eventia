@@ -9,6 +9,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 
 import AboutBackgroundImage from '../../assets/showcase-5.webp';
+
 const About = () => {
 
 
@@ -39,7 +40,7 @@ const About = () => {
 
 
 
-            <section className="md:p-[60px_0px] px-[12px] bg-[#0f172a]">
+            <section className="p-[60px_0px] px-[12px] bg-[#0f172a]">
                 <div className="max-w-[1320px] mx-auto px-[12px] bg-[#1cadc3] rounded-[20px]">
                     <div className="max-w-[800px] mx-auto p-[48px_40px] mb-[56px] text-center ">
                         <span className="bg-[#1b9bb1] p-[8px_20px] mb-[24px] inline-block rounded-[50px] text-[#0f172a] bg-[color-mix(in_srgb,_#ffdc95,_transparent_80%)] text-[13.6px] font-[500]  uppercase tracking-[1px] ">Annual Summit 2025</span>
@@ -129,9 +130,9 @@ const About = () => {
 
 
                     {/* RightSide Div */}
-                    <div className="px-[12px] flex items-center">
+                    <div className="md:px-[12px] px-[0px] flex items-center">
                         <div className="grid md:grid-cols-3 grid-cols-2 gap-[16px]">
-                            <div className="group flex flex-col items-center text-center border p-[20px_16px] rounded-[10px] bg-[#0f172a] cursor-pointer hover:border-[#22d3ee] hover:bg-[color-mix(in_srgb,#22d3ee,transparent_96%)] ">
+                            <div className="group flex flex-col items-center text-center border p-[20px_16px]   rounded-[10px] bg-[#0f172a] cursor-pointer hover:border-[#22d3ee] hover:bg-[color-mix(in_srgb,#22d3ee,transparent_96%)] ">
                                 <a href=""><BsTerminal className="text-[24px] text-gray-200 mb-[12px] group-hover:text-[#22d3ee]   group-hover:scale-[1.15] transition-transform duration-200" /></a>
                                 <h5 className="text-[15.2px] mb-[4px] text-[white]">Engineers</h5>
                                 <p className="text-[12.8px] text-gray-200">Backend and frontend specialists</p>
