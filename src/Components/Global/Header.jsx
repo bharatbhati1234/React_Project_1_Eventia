@@ -46,14 +46,14 @@ const Header = () => {
 
          {
             title: 'Speakers',
-            link: '/about',
+            link: '/speakers',
             id: 4,
         },
 
 
          {
             title: 'Venue',
-            link: '/about',
+            link: '/venue',
             id: 5,
         },
 

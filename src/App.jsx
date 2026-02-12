@@ -6,6 +6,7 @@ import Footer from './Components/Global/Footer'
 import Home from './Components/Pages/Home'
 import About from './Components/Pages/About'
 import Schedule from './Components/Pages/Schedule'
+import Speakers from './Components/Pages/Speakers'
 
 import {Route, Routes} from "react-router-dom";    // routing k liye import kiya hai or main.jsx me bhi ek import kerne ka pehele "npm i react-router-dom" terminal me install kerneka "import { BrowserRouter } from "react-router"; "  ye main.jsx me likh ne ka or ye <BrowserRouter> <App /> </BrowserRouter>,
 
@@ -23,6 +24,7 @@ function App() {
            <Route path="/" element={<Home/>}/>
            <Route path="/About" element={<About/>}/>
            <Route path="/schedule" element={<Schedule/>}/>
+           <Route path="/speakers" element={<Speakers/>}/>
       </Routes>
 
         <Footer/>
