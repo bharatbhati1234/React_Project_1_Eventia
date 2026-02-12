@@ -58,7 +58,7 @@ const Header = () => {
         },
 
 
-         {
+        {
             title: 'More Pages',
             link: '/about',
             id: 6,
@@ -74,7 +74,7 @@ const Header = () => {
         
         {
             title: 'Contact',
-            link: '/about',
+            link: '/contact',
             id: 8,
         },
 
