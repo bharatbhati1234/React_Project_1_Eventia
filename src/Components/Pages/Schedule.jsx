@@ -74,7 +74,7 @@ const Schedule = () => {
                 <div className="max-w-[1320px] mx-auto text-white px-[12px] flex flex-col gap-[24px]">
 
 
-                    <div className="p-[32px] border border-[1px] border-gray-600 flex flex-col md:flex-row gap-[24px] rounded-[8px]">
+                    <div className="p-[32px] border border-[1px] border-gray-600 flex flex-col md:flex-row gap-[24px] rounded-[8px] transition duration-300 hover:border-cyan-400/50 hover:shadow-[0_8px_24px_#f5f5f5]/8">
                         <div className="pr-[24px] flex md:flex-col flex-row gap-[16px] md:gap-[0px] pb-[16px] md:pb-[0px] items-center border-b-[2px]  border-b-[color-mix(in_srgb,#22d3ee,transparent_70%)]  md:border-b-0 md:border-r-[2px]  md:border-r-[color-mix(in_srgb,#22d3ee,transparent_70%)]">
                             <span className="mb-[4px] text-[18px] font-[500] text-[#22d3ee]">09:00 AM</span>
                             <span className="text-[13px] font-[500] text-gray-400 ">45 min</span>
@@ -93,7 +93,7 @@ const Schedule = () => {
                         </div>
                     </div>
 
-                    <div className="p-[32px] border border-[1px] border-gray-600 flex flex-col md:flex-row gap-[24px] rounded-[8px]">
+                    <div className="p-[32px] border border-[1px] border-gray-600 flex flex-col md:flex-row gap-[24px] rounded-[8px] transition duration-300 hover:border-cyan-400/50 hover:shadow-[0_8px_24px_#f5f5f5]/8">
                         <div className="pr-[24px] flex md:flex-col flex-row gap-[16px] md:gap-[0px] pb-[16px] md:pb-[0px] items-center border-b-[2px]  border-b-[color-mix(in_srgb,#22d3ee,transparent_70%)]  md:border-b-0 md:border-r-[2px]  md:border-r-[color-mix(in_srgb,#22d3ee,transparent_70%)]">
                             <span className="mb-[4px] text-[18px] font-[500] text-[#22d3ee]">09:00 AM</span>
                             <span className="text-[13px] font-[500] text-gray-400 ">45 min</span>
@@ -113,7 +113,7 @@ const Schedule = () => {
                     </div>
 
 
-                    <div className="p-[32px] border border-[1px] border-gray-600 flex flex-col md:flex-row gap-[24px] rounded-[8px]">
+                    <div className="p-[32px] border border-[1px] border-gray-600 flex flex-col md:flex-row gap-[24px] rounded-[8px] transition duration-300 hover:border-cyan-400/50 hover:shadow-[0_8px_24px_#f5f5f5]/8">
                         <div className="pr-[24px] flex md:flex-col flex-row gap-[16px] md:gap-[0px] pb-[16px] md:pb-[0px] items-center border-b-[2px]  border-b-[color-mix(in_srgb,#22d3ee,transparent_70%)]  md:border-b-0 md:border-r-[2px]  md:border-r-[color-mix(in_srgb,#22d3ee,transparent_70%)]">
                             <span className="mb-[4px] text-[18px] font-[500] text-[#22d3ee]">09:00 AM</span>
                             <span className="text-[13px] font-[500] text-gray-400 ">45 min</span>

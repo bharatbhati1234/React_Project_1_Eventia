@@ -1,5 +1,9 @@
 
 import AboutBackgroundImage from '../../assets/showcase-5.webp';
+import { SlLocationPin } from "react-icons/sl";
+import { BsTelephone } from "react-icons/bs";
+import { BsEnvelope } from "react-icons/bs";
+import { GoClock } from "react-icons/go";
 
 const Contact = () => {
 
@@ -23,6 +27,124 @@ const Contact = () => {
                         <a href="" className="text-[#22d3ee] text-[16px]">Home </a>
                         <span className="text-white text-[16px]"> / Contact</span>
                     </div>
+                </div>
+            </section>
+
+
+            <section className="bg-[#0f172a]">
+
+                <div className="max-w-[1320px] mx-auto p-[60px_0px] grid md:grid-cols-[45%_55%] grid-cols-1 gap-[30px]">
+
+                    {/* leftside  */}
+
+                    <div className="">
+
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d45995.49727246966!2d-74.0061377!3d40.7100586!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown.%20Conference%20Center%2C%20157%20William%20St%2C%20New%20York%2C%20NY%2010038%2C%20United%20States!3m2!1d40.710058599999996!2d-74.0061377!5e1!3m2!1sen!2sin!4v1770986888296!5m2!1sen!2sin"
+                            className="w-full h-[100%] rounded-2xl cursor-alias"
+                            allowFullScreen
+                            loading="lazy"
+                            referrerPolicy="no-referrer-when-downgrade"
+
+                        ></iframe>
+
+                    </div>
+
+                    {/* Rightside */}
+
+                    <div className="text-white flex flex-col gap-[30px]">
+
+                        <div className="grid grid-cols-2 gap-[15px]">
+                            <div className="p-[20px] flex items-start gap-[15px] bg-[#1f283d] rounded-[12px] shadow-[0 5px 15px rgba(0, 0, 0, 0.04)] transform transition duration-300 hover:translate-y-[-4px]" >
+                                <div className="w-[50px] h-[50px] bg-[color-mix(in_srgb,#22d3ee,transparent_90%)] flex items-center justify-center rounded-[10px]">
+                                    <a href="" className=""><SlLocationPin className="text-[22px] text-[#22d3ee]" /></a>
+                                </div>
+                                <div class="contact-text">
+                                    <h4 className="text-[18px] font-[600] mb-[8px] text-[#fafafa]">Location</h4>
+                                    <p className="text-[14px] leading-[1.5] text-[#fafafa]">8721 Broadway Avenue, New York, NY 10023</p>
+                                </div>
+                            </div>
+
+                            <div className="p-[20px] flex items-start gap-[15px] bg-[#1f283d] rounded-[12px] shadow-[0 5px 15px rgba(0, 0, 0, 0.04)] transform transition duration-300 hover:translate-y-[-4px]" >
+                                <div className="w-[50px] h-[50px] bg-[color-mix(in_srgb,#22d3ee,transparent_90%)] flex items-center justify-center rounded-[10px]">
+                                    <a href="" className=""><SlLocationPin className="text-[22px] text-[#22d3ee]" /></a>
+                                </div>
+                                <div class="contact-text">
+                                    <h4 className="text-[18px] font-[600] mb-[8px] text-[#fafafa]">Location</h4>
+                                    <p className="text-[14px] leading-[1.5] text-[#fafafa]">8721 Broadway Avenue, New York, NY 10023</p>
+                                </div>
+                            </div>
+
+                            <div className="p-[20px] flex items-start gap-[15px] bg-[#1f283d] rounded-[12px] shadow-[0 5px 15px rgba(0, 0, 0, 0.04)] transform transition duration-300 hover:translate-y-[-4px]" >
+                                <div className="w-[50px] h-[50px] bg-[color-mix(in_srgb,#22d3ee,transparent_90%)] flex items-center justify-center rounded-[10px]">
+                                    <a href="" className=""><SlLocationPin className="text-[22px] text-[#22d3ee]" /></a>
+                                </div>
+                                <div class="contact-text">
+                                    <h4 className="text-[18px] font-[600] mb-[8px] text-[#fafafa]">Location</h4>
+                                    <p className="text-[14px] leading-[1.5] text-[#fafafa]">8721 Broadway Avenue, New York, NY 10023</p>
+                                </div>
+                            </div>
+
+
+                            <div className="p-[20px] flex items-start gap-[15px] bg-[#1f283d] rounded-[12px] shadow-[0 5px 15px rgba(0, 0, 0, 0.04)] transform transition duration-300 hover:translate-y-[-4px]" >
+                                <div className="w-[50px] h-[50px] bg-[color-mix(in_srgb,#22d3ee,transparent_90%)] flex items-center justify-center rounded-[10px]">
+                                    <a href="" className=""><SlLocationPin className="text-[22px] text-[#22d3ee]" /></a>
+                                </div>
+                                <div class="contact-text">
+                                    <h4 className="text-[18px] font-[600] mb-[8px] text-[#fafafa]">Location</h4>
+                                    <p className="text-[14px] leading-[1.5] text-[#fafafa]">8721 Broadway Avenue, New York, NY 10023</p>
+                                </div>
+                            </div>
+
+
+
+
+
+
+                        </div>
+
+
+                        <div className="p-[30px] rounded-[16px] shadow-[0 10px 30px rgba(0, 0, 0, 0.08)] border">
+                            <h3 className="text-[24px] font-[700] mb-[15px] text-[#fafafa ]">Get in Touch</h3>
+                            <p className="text-[15px] leading-[1.6] mb-[25px] text-[#f5f5f5]">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua consectetur adipiscing.</p>
+
+                            <form  method="post">
+                                <div className="">
+                                    <div className="">
+                                        <input type="text" name="name" className="h-[auto]  bg-[#545b69] p-[14px_20px] border border-[#f5f5f5]/10 rounded-[10px]" id="name" placeholder="Your Name" required=""/>
+                                    </div>
+                                    <div class="col-md-6 form-group mt-3 mt-md-0">
+                                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required=""/>
+                                    </div>
+                                </div>
+                                <div class="form-group mt-3">
+                                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required=""/>
+                                </div>
+                                <div class="form-group mt-3">
+                                    <textarea class="form-control" name="message" rows="5" placeholder="Message" required=""></textarea>
+                                </div>
+
+                                <div class="my-3">
+                                    <div class="loading">Loading</div>
+                                    <div class="error-message"></div>
+                                    <div class="sent-message">Your message has been sent. Thank you!</div>
+                                </div>
+
+                                <div class="form-submit">
+                                    <button type="submit">Send Message</button>
+                                    <div class="social-links">
+                                        <a href="#"><i class="bi bi-twitter"></i></a>
+                                        <a href="#"><i class="bi bi-facebook"></i></a>
+                                        <a href="#"><i class="bi bi-instagram"></i></a>
+                                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+
+
                 </div>
             </section>
         </>
