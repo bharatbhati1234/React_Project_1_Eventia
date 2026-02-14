@@ -5,6 +5,12 @@ import { BsTelephone } from "react-icons/bs";
 import { BsEnvelope } from "react-icons/bs";
 import { GoClock } from "react-icons/go";
 
+import { FaXTwitter } from "react-icons/fa6";
+import { FaFacebook } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { ImYoutube } from "react-icons/im";
+
 const Contact = () => {
 
 
@@ -31,17 +37,17 @@ const Contact = () => {
             </section>
 
 
-            <section className="bg-[#0f172a]">
+            <section className="bg-[#0f172a] px-[12px]">
 
                 <div className="max-w-[1320px] mx-auto p-[60px_0px] grid md:grid-cols-[45%_55%] grid-cols-1 gap-[30px]">
 
                     {/* leftside  */}
 
-                    <div className="">
+                    <div className="px-[12px] md:px-[0px]">
 
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d45995.49727246966!2d-74.0061377!3d40.7100586!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown.%20Conference%20Center%2C%20157%20William%20St%2C%20New%20York%2C%20NY%2010038%2C%20United%20States!3m2!1d40.710058599999996!2d-74.0061377!5e1!3m2!1sen!2sin!4v1770986888296!5m2!1sen!2sin"
-                            className="w-full h-[100%] rounded-2xl cursor-alias"
+                            className="w-full h-[100%]  rounded-2xl cursor-alias"
                             allowFullScreen
                             loading="lazy"
                             referrerPolicy="no-referrer-when-downgrade"
@@ -52,9 +58,9 @@ const Contact = () => {
 
                     {/* Rightside */}
 
-                    <div className="text-white flex flex-col gap-[30px]">
+                    <div className="text-white flex flex-col gap-[30px] ">
 
-                        <div className="grid grid-cols-2 gap-[15px]">
+                        <div className="grid md:grid-cols-2 grid-cols-1 gap-[15px] px-[12px] md:px-[0px] ">
                             <div className="p-[20px] flex items-start gap-[15px] bg-[#1f283d] rounded-[12px] shadow-[0 5px 15px rgba(0, 0, 0, 0.04)] transform transition duration-300 hover:translate-y-[-4px]" >
                                 <div className="w-[50px] h-[50px] bg-[color-mix(in_srgb,#22d3ee,transparent_90%)] flex items-center justify-center rounded-[10px]">
                                     <a href="" className=""><SlLocationPin className="text-[22px] text-[#22d3ee]" /></a>
@@ -104,39 +110,36 @@ const Contact = () => {
                         </div>
 
 
-                        <div className="p-[30px] rounded-[16px] shadow-[0 10px 30px rgba(0, 0, 0, 0.08)] border">
-                            <h3 className="text-[24px] font-[700] mb-[15px] text-[#fafafa ]">Get in Touch</h3>
+                        <div className="md:p-[30px] p-[25px_20px] rounded-[16px] shadow-[0 10px 30px rgba(0, 0, 0, 0.08)]">
+                            <h3 className="  relative pl-[15px] text-[24px] font-[700] mb-[15px] text-[#fafafa] before:content-[''] before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-[4px] before:h-[100%] before:bg-cyan-400 before:rounded-[4px]">Get in Touch</h3>
                             <p className="text-[15px] leading-[1.6] mb-[25px] text-[#f5f5f5]">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua consectetur adipiscing.</p>
 
-                            <form  method="post">
-                                <div className="">
-                                    <div className="">
-                                        <input type="text" name="name" className="h-[auto]  bg-[#545b69] p-[14px_20px] border border-[#f5f5f5]/10 rounded-[10px]" id="name" placeholder="Your Name" required=""/>
+                            <form method="post">
+                                <div className="flex flex-col md:flex-row gap-[24px]">
+                                    <div className="md:w-[50%] w-[100%]">
+                                        <input type="text" name="name" className="w-[100%] bg-[#545b69] p-[14px_20px] border border-[#f5f5f5]/10 rounded-[10px]" id="name" placeholder="Your Name" required="" />
                                     </div>
-                                    <div class="col-md-6 form-group mt-3 mt-md-0">
-                                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required=""/>
+                                    <div className="md:w-[50%] w-[100%]">
+                                        <input type="email" name="email" className="w-[100%] bg-[#545b69] p-[14px_20px] border border-[#f5f5f5]/10 rounded-[10px]" id="email" placeholder="Your Email" required="" />
                                     </div>
                                 </div>
-                                <div class="form-group mt-3">
-                                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required=""/>
+                                <div className="mt-[16px]">
+                                    <input type="text" className="w-[100%] bg-[#545b69] p-[14px_20px] border border-[#f5f5f5]/10 rounded-[10px]" name="subject" id="subject" placeholder="Subject" required="" />
                                 </div>
-                                <div class="form-group mt-3">
-                                    <textarea class="form-control" name="message" rows="5" placeholder="Message" required=""></textarea>
+                                <div className="mt-[16px]">
+                                    <textarea name="message" className="w-[100%] h-[150px] bg-[#545b69] p-[14px_20px] border border-[#f5f5f5]/10 rounded-[10px]" placeholder="Message" required=""></textarea>
                                 </div>
 
-                                <div class="my-3">
-                                    <div class="loading">Loading</div>
-                                    <div class="error-message"></div>
-                                    <div class="sent-message">Your message has been sent. Thank you!</div>
-                                </div>
+                                <div className="mt-[10px] flex flex-col md:flex-row md:items-center items-start justify-between gap-[20px] md:gap-[0px]">
+                                    <button class="p-[12px_28px] rounded-[50px] w-fit bg-[#22d3ee] text-[#0f172a] hover:shadow-[0_16px_48px_rgba(34,211,238,0.35)] shadow-[0_16px_48px_rgba(34,211,238,0.25)] hover:translate-y-[-4px] hover:bg-[#22d3ee]/85   transition-all duration-300 ease-in-out cursor-pointer text-[15px] font-[600]"><a href="register.html">Send Message</a></button>
+                                    <div className="flex gap-[10px]">
+                                        <a href="" className="w-[36px] h-[36px] rounded-[50%] text-white flex justify-center items-center bg-slate-700 hover:bg-[#22d3ee] hover:text-[#0f172a] transition duration-300 transform hover:translate-y-[-4px]"><FaXTwitter className="" /></a>
+                                        <a href="" className="w-[36px] h-[36px] rounded-[50%] text-white flex justify-center items-center bg-slate-700 hover:bg-[#22d3ee] hover:text-[#0f172a] transition duration-300 transform hover:translate-y-[-4px]"><FaFacebook className="" /></a>
+                                        <a href="" className="w-[36px] h-[36px] rounded-[50%] text-white flex justify-center items-center bg-slate-700 hover:bg-[#22d3ee] hover:text-[#0f172a] transition duration-300 transform hover:translate-y-[-4px]"><FaInstagram className="" /></a>
+                                        <a href="" className="w-[36px] h-[36px] rounded-[50%] text-white flex justify-center items-center bg-slate-700 hover:bg-[#22d3ee] hover:text-[#0f172a] transition duration-300 transform hover:translate-y-[-4px]"><FaLinkedin className="" /></a>
+                                        <a href="" className="w-[36px] h-[36px] rounded-[50%] text-white flex justify-center items-center bg-slate-700 hover:bg-[#22d3ee] hover:text-[#0f172a] transition duration-300 transform hover:translate-y-[-4px]"><ImYoutube className="" /></a>
 
-                                <div class="form-submit">
-                                    <button type="submit">Send Message</button>
-                                    <div class="social-links">
-                                        <a href="#"><i class="bi bi-twitter"></i></a>
-                                        <a href="#"><i class="bi bi-facebook"></i></a>
-                                        <a href="#"><i class="bi bi-instagram"></i></a>
-                                        <a href="#"><i class="bi bi-linkedin"></i></a>
+
                                     </div>
                                 </div>
                             </form>
